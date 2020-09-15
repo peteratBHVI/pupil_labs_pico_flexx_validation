@@ -15,7 +15,7 @@
 % ---------------------------------------------------------------------------~(*)
 % """
 % % %   
-recording_fp = 'D:\PupilLabsRecordings\2020_06_11\007';
+recording_fp = r'D:\PupilLabsRecordings\2020_06_11\007';
 
 pc_fp_n = dir(fullfile(recording_fp, 'pointcloud*.rrf'));
 for idx = 1:size(pc_fp_n,1)
